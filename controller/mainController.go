@@ -6,6 +6,6 @@ import (
 )
 
 func Test1(ctx echo.Context) error {
-
-	return ctx.JSON(http.StatusOK, "111")
+	url := ctx.Path()
+	return ctx.JSON(http.StatusOK, url+"111")
 }
