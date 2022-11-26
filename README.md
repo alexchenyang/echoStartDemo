@@ -9,3 +9,7 @@
 
 - conf 存储配置文件
 - config 解析配置文件代码
+- common 通用包
+  - constants  常量定义
+  - handlers   全局句柄定义&初始化区域，如mysql全局句柄 & 初始化
+  - util       功能包定义
